@@ -23,3 +23,9 @@ jobs:
 
       - name: Git Version
         run: git --version
+      - name: List Files
+        run: ls
+      - name: Show Hidden Files
+        run: ls -la
+      - name: Print Working Directory
+        run: pwd
