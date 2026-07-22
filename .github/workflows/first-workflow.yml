@@ -12,3 +12,7 @@ jobs:
     steps:
       - name: Print Message
         run: echo "Hello Satish! Welcome to GitHub Actions."
+      - name: Show Date
+        run: date
+      - name: Show Current Folder
+        run: pwd
